@@ -1,7 +1,6 @@
 import hashlib
 import hmac
 import base64
-import email
 
 SECRET = bytes('█████', 'utf-8')
 
