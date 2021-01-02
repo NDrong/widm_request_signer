@@ -1,7 +1,7 @@
 ## 'Wie is de Mol?' API Request Signer
 This repository contains a simple Python 3 application that takes a raw HTTP request from `./signature`
 and signs it using the HMAC algorithm (SHA-256) used by the 'Wie is de Mol?' Android app and its API. See 
-[this article](https://n04m.nl) on my blog for more details on the background behind this utility.
+[this article](https://n04m.nl/reverse-engineering-the-wie-is-de-mol-app) on my blog for more details on the background behind this utility.
 
 ### Why?
 I was interested in reverse engineering the API behind the popular 'Wie is de Mol?' app. When I started reversing
@@ -16,7 +16,7 @@ application:
 - `/profile/`
 - `/profile/forgot_password/`
 
-I'll add more details when I have the time later (as it's currently already past 1 AM...)
+I might add more details when I have the time later (as it's currently already past 1 AM...)
 
 ### License
 See [`LICENSE`](LICENSE) for more information.
