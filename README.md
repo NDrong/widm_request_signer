@@ -19,4 +19,4 @@ application:
 I'll add more details when I have the time later (as it's currently already past 1 AM...)
 
 ### License
-See [`LICENSE`]() for more information.
+See [`LICENSE`](LICENSE) for more information.
