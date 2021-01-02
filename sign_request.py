@@ -7,12 +7,13 @@ SECRET = bytes('█████', 'utf-8')
 
 def get_message_for_request(request: str) -> bytes:
     # Parse the HTTP request.
-    headers, body = request.split('\n\n')
+    headers, body = request.split('\n\n', 1)
 
     method, path, _ = headers.split(' ', 2)
 
-    # Drop the final newline from the body.
-    body = body[:-1]
+    # Drop the final newline from the body if needed.
+    if body[-1] == '\n':
+        body = body[:-1]
 
     headers = headers.split('\n')[1:]
     header_lookup = dict()
