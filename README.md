@@ -1,5 +1,5 @@
 ## 'Wie is de Mol?' API Request Signer
-This repository contains a simple Python 3 application that takes a raw HTTP request from `./signature`
+This repository contains a simple Python 3 application that takes a raw HTTP request from `./request`
 and signs it using the HMAC algorithm (SHA-256) used by the 'Wie is de Mol?' Android app and its API. See 
 [this article](https://n04m.nl/reverse-engineering-the-wie-is-de-mol-app) on my blog for more details on the background behind this utility.
 
