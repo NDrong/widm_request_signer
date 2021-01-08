@@ -3,6 +3,10 @@ This repository contains a simple Python 3 application that takes a raw HTTP req
 and signs it using the HMAC algorithm (SHA-256) used by the 'Wie is de Mol?' Android app and its API. See 
 [this article](https://n04m.nl/reverse-engineering-the-wie-is-de-mol-app) on my blog for more details on the background behind this utility.
 
+- **Update — January 5, 2021**  
+Upon request from the broadcasting network, AVRO, I have removed all references to the secret signing key from this repository (as well as from the blog post linked above).
+
+
 ### Why?
 I was interested in reverse engineering the API behind the popular 'Wie is de Mol?' app. When I started reversing
 the Android app, I noticed that requests are signed, with the signatures being verified by the backend. In order to 
